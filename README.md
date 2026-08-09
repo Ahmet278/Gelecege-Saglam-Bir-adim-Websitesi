@@ -4,7 +4,7 @@
 #1-Proje adı: Geleceğe Sağlam Bir Adım
 
 
-#2-Çözülen problem: İş Bulma ve digem gençlerinin iş yatkınlıklarını keşfetmesine yardımcı olma
+#2-Çözülen problem: Eğitim/Staj Bulma ve digem gençlerinin iş yatkınlıklarını keşfetmesine yardımcı olma
 
 
 #3-Hedef kitle (DİGEM perspektifi): Digem kapsamında 15-25 yaşları arasındaki gençler
