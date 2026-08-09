@@ -1,4 +1,4 @@
-# Gelece-e-Sa-lam-Bir-ad-m-Websitesi
+# Gelecege-Saglam-Bir-Adim-Websitesi
 
 
 #1-Proje adı: Geleceğe Sağlam Bir Adım
