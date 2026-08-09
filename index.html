@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DİGEM | Geleceğe Sağlam Bir Adım</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <span class="mark">DG</span>
+      <span>
+        <span class="name">DİGEM</span>
+        <span class="tag">GELECEĞE SAĞLAM BİR ADIM</span>
+      </span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="meslekler.html">Meslekler</a>
+      <a href="egitimler.html">Eğitimler</a>
+      <a href="simulasyonlar.html">Simülasyonlar</a>
+      <a href="projeler.html">Projeler</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="profil.html">Profilim</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="anket.html" class="btn btn-grad">Kariyer Testi</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="reveal in">
+      <div class="eyebrow"><span class="dot"></span> Dijital Gençlik Merkezi</div>
+      <h1>Gelecekte hangi <span>meslek</span> sana uygun?</h1>
+      <p class="lead">DİGEM, 14–25 yaş arası gençlerin geleceğin mesleklerini simülasyonlarla deneyimlediği, becerilerini ölçtüğü ve kendi kariyer yolculuğunu adım adım kurduğu dijital keşif platformu.</p>
+      <div class="cta-row">
+        <a href="meslekler.html" class="btn btn-grad">Meslekleri Keşfet</a>
+        <a href="anket.html" class="btn btn-ghost">Kariyer Testini Başlat</a>
+      </div>
+      <div class="stats">
+        <div><b>32+</b><span>keşfedilebilir meslek</span></div>
+        <div><b>60+</b><span>uygulamalı eğitim</span></div>
+        <div><b>18+</b><span>gerçekçi simülasyon</span></div>
+      </div>
+    </div>
+    <div class="reveal in">
+      <div class="console">
+        <div class="bar"><span></span><span></span><span></span></div>
+        <div class="row">
+          <div><b>Siber Güvenlik Simülasyonu</b><small>Görev 2 / 4 — Ağ Taraması</small></div>
+          <span class="badge b-teal">Devam ediyor</span>
+        </div>
+        <div class="row">
+          <div><b>Veri Bilimi Projesi</b><small>Hava durumu veri seti analizi</small></div>
+          <span class="badge b-blue">Tamamlandı</span>
+        </div>
+        <div class="row">
+          <div><b>UX/UI Kariyer Testi</b><small>İlgi alanı: Ürün Tasarımı</small></div>
+          <span class="badge b-teal">%92 uyum</span>
+        </div>
+        <div class="progress"><i style="width:64%"></i></div>
+        <p style="font-family:'JetBrains Mono'; font-size:11px; color:rgba(255,255,255,.45); margin-top:10px;">Kariyer yolculuğu · %64 tamamlandı</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GELECEGIN MESLEKLERI -->
+<section class="section-pad bg-white" id="meslekler">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow-dark">01 · MESLEKLER</span>
+      <h2>Geleceğin öne çıkan meslekleri</h2>
+      <p>Teknolojinin şekillendirdiği kariyer alanlarını keşfet; her meslek kartı görevleri, gerekli becerileri ve öğrenme yollarıyla birlikte gelir.</p>
+    </div>
+    <div class="grid-4 reveal">
+      <div class="job-card">
+        <div class="ic" style="background:rgba(37,99,235,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></div>
+        <h3>Yapay Zekâ Mühendisi</h3>
+        <p>Modelleri eğitir, veriyi işler ve akıllı sistemler tasarlar.</p>
+        <div class="tags"><span>Python</span><span>Makine Öğrenmesi</span></div>
+      </div>
+      <div class="job-card">
+        <div class="ic" style="background:rgba(20,184,166,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="1.6"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg></div>
+        <h3>Yazılım Geliştirici</h3>
+        <p>Web ve mobil uygulamalar tasarlar, kodlar ve test eder.</p>
+        <div class="tags"><span>JavaScript</span><span>Git</span></div>
+      </div>
+      <div class="job-card">
+        <div class="ic" style="background:rgba(37,99,235,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg></div>
+        <h3>Siber Güvenlik Uzmanı</h3>
+        <p>Ağları korur, açıkları tespit eder, sistemleri güvenli tutar.</p>
+        <div class="tags"><span>Ağ Güvenliği</span><span>Linux</span></div>
+      </div>
+      <div class="job-card">
+        <div class="ic" style="background:rgba(20,184,166,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="1.6"><path d="M4 19h4V10H4v9zM10 19h4V5h-4v14zM16 19h4v-6h-4v6z"/></svg></div>
+        <h3>Veri Bilimci</h3>
+        <p>Verideki örüntüleri bulur, öngörüler üretir, kararları destekler.</p>
+        <div class="tags"><span>SQL</span><span>İstatistik</span></div>
+      </div>
+      <div class="job-card">
+        <div class="ic" style="background:rgba(37,99,235,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><rect x="4" y="8" width="16" height="10" rx="2"/><path d="M9 8V6a3 3 0 016 0v2M8 13h.01M16 13h.01"/></svg></div>
+        <h3>Robotik Mühendisi</h3>
+        <p>Otomasyon sistemleri ve robotik donanım-yazılım çözümleri kurar.</p>
+        <div class="tags"><span>Elektronik</span><span>C++</span></div>
+      </div>
+      <div class="job-card">
+        <div class="ic" style="background:rgba(20,184,166,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="1.6"><path d="M3 12c3-5 15-5 18 0-3 5-15 5-18 0z"/><circle cx="12" cy="12" r="2.5"/></svg></div>
+        <h3>UX/UI Tasarımcı</h3>
+        <p>Kullanıcı ihtiyaçlarını anlar, sezgisel dijital deneyimler tasarlar.</p>
+        <div class="tags"><span>Figma</span><span>Kullanıcı Araştırması</span></div>
+      </div>
+      <div class="job-card">
+        <div class="ic" style="background:rgba(37,99,235,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><rect x="3" y="9" width="18" height="8" rx="4"/><path d="M8 13h.01M11 13h3M17 13h.01"/></svg></div>
+        <h3>Oyun Geliştirici</h3>
+        <p>Oyun mekanikleri kurgular, karakterleri ve dünyaları hayata geçirir.</p>
+        <div class="tags"><span>Unity</span><span>C#</span></div>
+      </div>
+      <div class="job-card">
+        <div class="ic" style="background:rgba(20,184,166,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="1.6"><path d="M4 4h16v12H7l-3 4V4z"/></svg></div>
+        <h3>Dijital Pazarlama Uzmanı</h3>
+        <p>Marka hikâyesini veriye dayalı stratejilerle kitlelere ulaştırır.</p>
+        <div class="tags"><span>SEO</span><span>İçerik Stratejisi</span></div>
+      </div>
+    </div>
+    <div class="reveal" style="text-align:center; margin-top:36px;">
+      <a href="meslekler.html" class="btn btn-dark">Tüm Meslekleri Gör</a>
+    </div>
+  </div>
+</section>
+
+<!-- MESLEGI DENEYIMLE -->
+<section class="section-pad bg-light" id="simulasyonlar">
+  <div class="wrap split">
+    <div class="reveal">
+      <span class="eyebrow-dark">02 · SİMÜLASYONLAR</span>
+      <h2>Mesleği oku değil, deneyimle</h2>
+      <p class="desc">Her meslek için gerçek iş görevlerinin basitleştirilmiş dijital simülasyonunu dene. Bir siber güvenlik uzmanı gibi ağ taraması yap, bir veri bilimci gibi veri setini analiz et, bir tasarımcı gibi arayüz kur.</p>
+      <ul class="checklist">
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Gerçek görevlerden esinlenen adım adım senaryolar</li>
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Anlık geri bildirim ile ilgi ve yatkınlığını ölç</li>
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Tamamlanan her simülasyon profiline işlenir</li>
+      </ul>
+      <a href="simulasyonlar.html" class="btn btn-dark">Bir Simülasyon Dene</a>
+    </div>
+    <div class="visual reveal">
+      <div class="sim-panel">
+        <div class="top"><span class="lbl">SİMÜLASYON · 03:24</span><span class="lbl">GÖREV 2/4</span></div>
+        <div class="sim-task"><h4>Ağ Trafiğini Analiz Et</h4><p>Şüpheli IP adreslerini işaretle ve raporla.</p></div>
+        <div class="sim-task"><h4>Güvenlik Duvarı Kuralı Oluştur</h4><p>Gelen trafiği filtreleyecek kuralı tanımla.</p></div>
+        <div class="sim-task"><h4>Olay Raporu Hazırla</h4><p>Bulgularını kısa bir özetle sun.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ANKET -->
+<section class="section-pad bg-white" id="anket">
+  <div class="wrap">
+    <div class="quiz-card reveal">
+      <div>
+        <span class="eyebrow-dark">03 · KARİYER TESTİ</span>
+        <h3>İlgi alanlarını keşfet, sana uygun meslekleri gör</h3>
+        <p>Kısa bir anketle ilgi alanlarını, güçlü yönlerini ve çalışma tarzını ölçüyoruz; sonucunda sana özel meslek ve eğitim önerileri sunuyoruz.</p>
+        <div class="quiz-steps">
+          <div><span class="num">1</span><span>İlgi Alanları</span></div>
+          <div><span class="num">2</span><span>Beceriler</span></div>
+          <div><span class="num">3</span><span>Çalışma Tarzı</span></div>
+          <div><span class="num">4</span><span>Sonuç</span></div>
+        </div>
+      </div>
+      <a href="anket.html" class="btn btn-grad" style="white-space:nowrap;">Testi Başlat →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJELER -->
+<section class="section-pad bg-light" id="projeler">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow-dark">04 · PROJELER</span>
+      <h2>Uygulamalı, gerçek hayata yakın projeler</h2>
+      <p>Sadece izleme değil, üretme. Her proje bir kariyer alanının gerçek çıktısını simüle eder ve profilinde sergilenir.</p>
+    </div>
+    <div class="grid-3 reveal">
+      <div class="proj-card">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#2563EB,#14B8A6);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4"><path d="M4 19h4V10H4v9zM10 19h4V5h-4v14zM16 19h4v-6h-4v6z"/></svg>
+        </div>
+        <div class="proj-body">
+          <span class="cat">VERİ BİLİMİ</span>
+          <h3>Hava Durumu Tahmin Uygulaması</h3>
+          <p>Geçmiş verilerle basit bir tahmin modeli kurup sonuçları görselleştir.</p>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#0F172A,#2563EB);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg>
+        </div>
+        <div class="proj-body">
+          <span class="cat">YAZILIM</span>
+          <h3>Kişisel Portföy Web Sitesi</h3>
+          <p>Kendi projelerini sergileyeceğin duyarlı bir web sitesi geliştir.</p>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#14B8A6,#0F172A);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1"/></svg>
+        </div>
+        <div class="proj-body">
+          <span class="cat">YAPAY ZEKÂ</span>
+          <h3>Basit Bir Sohbet Botu Tasarımı</h3>
+          <p>Kural tabanlı bir sohbet botunun akışını kurgula ve test et.</p>
+        </div>
+      </div>
+    </div>
+    <div class="reveal" style="text-align:center; margin-top:36px;">
+      <a href="projeler.html" class="btn btn-dark">Tüm Projeleri Gör</a>
+    </div>
+  </div>
+</section>
+
+<!-- KARIYER YOLCULUGU — SIGNATURE -->
+<section class="section-pad bg-navy">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow-dark" style="color:var(--teal);">05 · KARİYER YOLCULUĞUN</span>
+      <h2>Beş adımda geleceğine sağlam bir adım at</h2>
+      <p>Her aşama bir öncekinin üzerine inşa edilir; ilerlemen profilinde canlı olarak izlenir.</p>
+    </div>
+    <div class="journey-wrap reveal">
+      <div class="journey-track">
+        <div class="journey-line"></div>
+        <div class="journey-node active">
+          <div class="pt"><svg viewBox="0 0 24 24"><path d="M12 4L2 9l10 5 10-5-10-5z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg></div>
+          <span class="step-num">01</span><h4>Eğitim</h4><p>Seviyene uygun eğitimle temel bilgiyi al</p>
+        </div>
+        <div class="journey-node active">
+          <div class="pt"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+          <span class="step-num">02</span><h4>Simülasyon</h4><p>Mesleği gerçek görevlerle dene</p>
+        </div>
+        <div class="journey-node">
+          <div class="pt"><svg viewBox="0 0 24 24"><path d="M4 19h4V10H4v9zM10 19h4V5h-4v14zM16 19h4v-6h-4v6z"/></svg></div>
+          <span class="step-num">03</span><h4>Proje</h4><p>Öğrendiklerini gerçek bir çıktıya dönüştür</p>
+        </div>
+        <div class="journey-node">
+          <div class="pt"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></svg></div>
+          <span class="step-num">04</span><h4>Beceri &amp; Rozet</h4><p>Kazandığın becerileri ve rozetleri topla</p>
+        </div>
+        <div class="journey-node">
+          <div class="pt"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg></div>
+          <span class="step-num">05</span><h4>Kariyer Fırsatı</h4><p>Staj ve etkinliklerle kariyerine yön ver</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERI -->
+<section class="section-pad bg-white" id="galeri">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow-dark">06 · GALERİ</span>
+      <h2>Gençlerin ürettiği kariyer topluluğu</h2>
+      <p>Diğer gençlerin tamamladığı projeleri keşfet, ilham al, kendi çalışmalarını paylaş.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gal-card">
+        <div class="gal-thumb"><div class="initials" style="background:#2563EB;">EK</div></div>
+        <div class="gal-info"><h4>Hava Durumu Tahmin Modeli</h4><span>Elif K. · Veri Bilimi</span></div>
+      </div>
+      <div class="gal-card">
+        <div class="gal-thumb"><div class="initials" style="background:#14B8A6;">BA</div></div>
+        <div class="gal-info"><h4>Kişisel Portföy Sitesi</h4><span>Berk A. · Yazılım</span></div>
+      </div>
+      <div class="gal-card">
+        <div class="gal-thumb"><div class="initials" style="background:#0F172A;">ZT</div></div>
+        <div class="gal-info"><h4>Mobil Uygulama Arayüzü</h4><span>Zeynep T. · UX/UI</span></div>
+      </div>
+      <div class="gal-card">
+        <div class="gal-thumb"><div class="initials" style="background:#2563EB;">CY</div></div>
+        <div class="gal-info"><h4>2D Platform Oyunu</h4><span>Can Y. · Oyun Geliştirme</span></div>
+      </div>
+    </div>
+    <div class="reveal" style="text-align:center; margin-top:36px;">
+      <a href="galeri.html" class="btn btn-dark">Tüm Galeriyi Gör</a>
+    </div>
+  </div>
+</section>
+
+<!-- EGITIMLER -->
+<section class="section-pad bg-light" id="egitimler">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow-dark">07 · EĞİTİMLER</span>
+      <h2>Öne çıkan eğitimler</h2>
+      <p>Başlangıçtan ileri seviyeye, mini görev ve projelerle desteklenen eğitim yolları.</p>
+    </div>
+    <div class="grid-3 reveal">
+      <div class="edu-card">
+        <span class="edu-level lvl-1">BAŞLANGIÇ</span>
+        <h3>Kod Yazmaya İlk Adım: Python Temelleri</h3>
+        <p>Değişkenler, döngüler ve fonksiyonlarla programlamanın temellerini öğren; küçük görevlerle pekiştir.</p>
+        <div class="edu-meta"><span>6 modül</span><span>Sertifikalı</span></div>
+      </div>
+      <div class="edu-card">
+        <span class="edu-level lvl-2">ORTA</span>
+        <h3>Web Uygulaması Geliştir: HTML, CSS, JS</h3>
+        <p>Etkileşimli bir web sitesini sıfırdan kurarak modern web geliştirmenin temellerini uygulamalı öğren.</p>
+        <div class="edu-meta"><span>8 modül</span><span>Proje içerir</span></div>
+      </div>
+      <div class="edu-card">
+        <span class="edu-level lvl-3">İLERİ</span>
+        <h3>Yapay Zekâ Modelleri ile Proje Geliştirme</h3>
+        <p>Hazır veri setleriyle basit bir makine öğrenmesi modeli eğit ve sonuçlarını değerlendir.</p>
+        <div class="edu-meta"><span>10 modül</span><span>Portföy projesi</span></div>
+      </div>
+    </div>
+    <div class="reveal" style="text-align:center; margin-top:36px;">
+      <a href="egitimler.html" class="btn btn-dark">Tüm Eğitimleri Gör</a>
+    </div>
+  </div>
+</section>
+
+<!-- ROZETLER -->
+<section class="section-pad bg-white" id="rozetler">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow-dark">08 · BAŞARILAR</span>
+      <h2>Rozetlerle ilerlemeni görünür kıl</h2>
+      <p>Tamamladığın her görev ve proje, profilinde toplanan bir rozetle ödüllendirilir.</p>
+    </div>
+    <div class="badge-grid reveal">
+      <div class="badge-item"><div class="ring"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg></div><h4>İlk Adım</h4><span>Platforma katıldın</span></div>
+      <div class="badge-item"><div class="ring"><svg viewBox="0 0 24 24"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg></div><h4>Kod Kâşifi</h4><span>İlk eğitimini bitirdin</span></div>
+      <div class="badge-item"><div class="ring"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/></svg></div><h4>Simülasyon Ustası</h4><span>5 simülasyon tamamladın</span></div>
+      <div class="badge-item"><div class="ring"><svg viewBox="0 0 24 24"><path d="M4 19h4V10H4v9zM10 19h4V5h-4v14zM16 19h4v-6h-4v6z"/></svg></div><h4>Proje Üretici</h4><span>İlk projeni yayınladın</span></div>
+      <div class="badge-item"><div class="ring"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></svg></div><h4>Kariyer Yolcusu</h4><span>Yolculuğunun yarısını tamamladın</span></div>
+    </div>
+    <div class="reveal" style="text-align:center; margin-top:36px;">
+      <a href="profil.html" class="btn btn-dark">Rozetlerimi ve İlerlemimi Gör</a>
+    </div>
+  </div>
+</section>
+
+<!-- FIRSATLAR -->
+<section class="section-pad bg-light" id="firsatlar">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow-dark">09 · FIRSATLAR</span>
+      <h2>Kariyerine yön verecek fırsatlar</h2>
+      <p>Staj, yarışma, etkinlik ve gönüllülük fırsatlarını keşfet, yolculuğunu bir adım öteye taşı.</p>
+    </div>
+    <div class="opp-row reveal">
+      <div class="opp-card"><span class="k">STAJ</span><h4>Yazılım Geliştirme Stajı</h4><p>Yaz dönemi için başlangıç seviyesi staj programı.</p></div>
+      <div class="opp-card"><span class="k">YARIŞMA</span><h4>Genç Hackathon</h4><p>48 saatte fikrini dijital bir prototipe dönüştür.</p></div>
+      <div class="opp-card"><span class="k">ETKİNLİK</span><h4>Kariyer Söyleşisi: Veri Bilimi</h4><p>Sektör deneyimlerinin paylaşıldığı çevrimiçi buluşma.</p></div>
+      <div class="opp-card"><span class="k">GÖNÜLLÜLÜK</span><h4>Kodlama Atölyesi Asistanlığı</h4><p>Akranlarına temel kodlama öğretmede yardımcı ol.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="section-pad bg-white">
+  <div class="wrap">
+    <div class="final-cta reveal">
+      <span class="eyebrow-dark" style="color:var(--teal);">GELECEĞE SAĞLAM BİR ADIM</span>
+      <h2>Geleceğini keşfetmeye bugün başla.</h2>
+      <p>Kariyer testini tamamla, ilk simülasyonunu dene ve kendi yolculuğunu oluşturmaya başla.</p>
+      <div class="cta-row">
+        <a href="anket.html" class="btn btn-grad">Hemen Başla</a>
+        <a href="meslekler.html" class="btn btn-ghost" style="color:var(--navy); border-color:rgba(15,23,42,.25);">Meslekleri İncele</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="iletisim">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark">DG</span>
+          <span><span class="name" style="color:#fff;">DİGEM</span><span class="tag">GELECEĞE SAĞLAM BİR ADIM</span></span>
+        </div>
+        <p>Gençlerin geleceğin mesleklerini keşfettiği, deneyimlediği ve kendi kariyer yolculuğunu kurduğu dijital gençlik merkezi.</p>
+      </div>
+      <div>
+        <h5>KEŞFET</h5>
+        <ul>
+          <li><a href="meslekler.html">Meslekler</a></li>
+          <li><a href="egitimler.html">Eğitimler</a></li>
+          <li><a href="simulasyonlar.html">Simülasyonlar</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>TOPLULUK</h5>
+        <ul>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="anket.html">Kariyer Testi</a></li>
+          <li><a href="index.html#firsatlar">Fırsatlar</a></li>
+          <li><a href="profil.html">Rozetlerim</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>İLETİŞİM</h5>
+        <ul>
+          <li><a href="mailto:merhaba@digem.org">merhaba@digem.org</a></li>
+          <li><a href="iletisim.html">Soru &amp; Öneri</a></li>
+          <li><a href="iletisim.html">İş Birliği</a></li>
+          <li><a href="iletisim.html">Destek</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 DİGEM — Dijital Gençlik Merkezi. Tüm hakları saklıdır.</span>
+      <span>Geleceğe Sağlam Bir Adım</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // mobil menü
+  const toggle = document.getElementById('menuToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+  // scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+</script>
+</body>
+</html>

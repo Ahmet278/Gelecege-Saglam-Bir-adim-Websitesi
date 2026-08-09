@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simülasyonlar | DİGEM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <span class="mark">DG</span>
+      <span>
+        <span class="name">DİGEM</span>
+        <span class="tag">GELECEĞE SAĞLAM BİR ADIM</span>
+      </span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="meslekler.html">Meslekler</a>
+      <a href="egitimler.html">Eğitimler</a>
+      <a href="simulasyonlar.html" class="active">Simülasyonlar</a>
+      <a href="projeler.html">Projeler</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="profil.html">Profilim</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="anket.html" class="btn btn-grad">Kariyer Testi</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Ana Sayfa</a><span>/</span><span>Simülasyonlar</span></div>
+    <h1>Mesleği oku değil, deneyimle</h1>
+    <p>Gerçek iş görevlerinin basitleştirilmiş dijital simülasyonlarını dene; ilgini ve yatkınlığını anında ölç.</p>
+  </div>
+</section>
+
+<section class="section-pad bg-light">
+  <div class="wrap">
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="tumu">Tümü</button>
+      <button class="filter-btn" data-filter="veri">Veri &amp; YZ</button>
+      <button class="filter-btn" data-filter="guvenlik">Güvenlik</button>
+      <button class="filter-btn" data-filter="tasarim">Tasarım &amp; Yazılım</button>
+    </div>
+
+    <div class="grid-3 reveal" id="simGrid">
+      <div class="job-card" data-cat="guvenlik">
+        <div class="ic" style="background:rgba(37,99,235,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg></div>
+        <h3>Ağ Trafiği Analizi</h3>
+        <p>Siber güvenlik uzmanı gibi şüpheli ağ trafiğini tespit et ve raporla.</p>
+        <div class="tags"><span>4 görev</span><span>~15 dk</span></div>
+        <div class="more">
+          <h5>GÖREVLER</h5>
+          <ul><li>Ağ trafiğini incele</li><li>Şüpheli IP adreslerini işaretle</li><li>Güvenlik duvarı kuralı öner</li><li>Olay raporu hazırla</li></ul>
+        </div>
+        <span class="toggle-hint">Detayları gör ↓</span>
+      </div>
+
+      <div class="job-card" data-cat="veri">
+        <div class="ic" style="background:rgba(20,184,166,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="1.6"><path d="M4 19h4V10H4v9zM10 19h4V5h-4v14zM16 19h4v-6h-4v6z"/></svg></div>
+        <h3>Veri Temizleme ve Analiz</h3>
+        <p>Ham bir veri setini düzenle, eksik verileri işle ve temel bulguları çıkar.</p>
+        <div class="tags"><span>3 görev</span><span>~12 dk</span></div>
+        <div class="more">
+          <h5>GÖREVLER</h5>
+          <ul><li>Eksik/hatalı verileri tespit et</li><li>Veriyi kategorilere ayır</li><li>Basit bir grafikle özetle</li></ul>
+        </div>
+        <span class="toggle-hint">Detayları gör ↓</span>
+      </div>
+
+      <div class="job-card" data-cat="tasarim">
+        <div class="ic" style="background:rgba(37,99,235,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><path d="M3 12c3-5 15-5 18 0-3 5-15 5-18 0z"/><circle cx="12" cy="12" r="2.5"/></svg></div>
+        <h3>Arayüz Taslağı Tasarla</h3>
+        <p>Bir mobil uygulama ekranı için kullanıcı akışı ve arayüz taslağı oluştur.</p>
+        <div class="tags"><span>3 görev</span><span>~10 dk</span></div>
+        <div class="more">
+          <h5>GÖREVLER</h5>
+          <ul><li>Kullanıcı ihtiyacını tanımla</li><li>Ekran akışını çiz</li><li>Butonları ve etiketleri yerleştir</li></ul>
+        </div>
+        <span class="toggle-hint">Detayları gör ↓</span>
+      </div>
+
+      <div class="job-card" data-cat="tasarim">
+        <div class="ic" style="background:rgba(20,184,166,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="1.6"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg></div>
+        <h3>Hata Ayıklama Görevi</h3>
+        <p>Çalışmayan basit bir kod parçasındaki hatayı bul ve düzelt.</p>
+        <div class="tags"><span>2 görev</span><span>~8 dk</span></div>
+        <div class="more">
+          <h5>GÖREVLER</h5>
+          <ul><li>Kod çıktısını beklenenle karşılaştır</li><li>Hatalı satırı düzelt</li></ul>
+        </div>
+        <span class="toggle-hint">Detayları gör ↓</span>
+      </div>
+
+      <div class="job-card" data-cat="veri">
+        <div class="ic" style="background:rgba(37,99,235,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3"/></svg></div>
+        <h3>Basit Bir Model Eğit</h3>
+        <p>Hazır bir veri setiyle küçük bir sınıflandırma modelinin adımlarını izle.</p>
+        <div class="tags"><span>4 görev</span><span>~18 dk</span></div>
+        <div class="more">
+          <h5>GÖREVLER</h5>
+          <ul><li>Veriyi eğitim/test olarak ayır</li><li>Modeli çalıştır</li><li>Doğruluğu yorumla</li><li>Sonucu sun</li></ul>
+        </div>
+        <span class="toggle-hint">Detayları gör ↓</span>
+      </div>
+
+      <div class="job-card" data-cat="guvenlik">
+        <div class="ic" style="background:rgba(20,184,166,.1);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="1.6"><rect x="4" y="8" width="16" height="10" rx="2"/><path d="M9 8V6a3 3 0 016 0v2"/></svg></div>
+        <h3>Parola Güvenliği Denetimi</h3>
+        <p>Zayıf parola politikalarını tespit et ve güvenlik önerileri hazırla.</p>
+        <div class="tags"><span>2 görev</span><span>~9 dk</span></div>
+        <div class="more">
+          <h5>GÖREVLER</h5>
+          <ul><li>Zayıf parola örneklerini işaretle</li><li>Güvenli politika öner</li></ul>
+        </div>
+        <span class="toggle-hint">Detayları gör ↓</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad bg-white">
+  <div class="wrap">
+    <div class="mini-cta reveal">
+      <div><h3>Hangi simülasyonla başlayacağını bilmiyor musun?</h3><p>Kariyer testini çöz, sana en uygun alanı önerelim.</p></div>
+      <a href="anket.html" class="btn btn-grad">Kariyer Testini Başlat</a>
+    </div>
+  </div>
+</section>
+<footer id="iletisim-alt">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark">DG</span>
+          <span><span class="name" style="color:#fff;">DİGEM</span><span class="tag">GELECEĞE SAĞLAM BİR ADIM</span></span>
+        </div>
+        <p>Gençlerin geleceğin mesleklerini keşfettiği, deneyimlediği ve kendi kariyer yolculuğunu kurduğu dijital gençlik merkezi.</p>
+      </div>
+      <div>
+        <h5>KEŞFET</h5>
+        <ul>
+          <li><a href="meslekler.html">Meslekler</a></li>
+          <li><a href="egitimler.html">Eğitimler</a></li>
+          <li><a href="simulasyonlar.html">Simülasyonlar</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>TOPLULUK</h5>
+        <ul>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="anket.html">Kariyer Testi</a></li>
+          <li><a href="index.html#firsatlar">Fırsatlar</a></li>
+          <li><a href="profil.html">Rozetlerim</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>İLETİŞİM</h5>
+        <ul>
+          <li><a href="mailto:merhaba@digem.org">merhaba@digem.org</a></li>
+          <li><a href="iletisim.html">Soru &amp; Öneri</a></li>
+          <li><a href="iletisim.html">İş Birliği</a></li>
+          <li><a href="iletisim.html">Destek</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 DİGEM — Dijital Gençlik Merkezi. Tüm hakları saklıdır.</span>
+      <span>Geleceğe Sağlam Bir Adım</span>
+    </div>
+  </div>
+</footer>
+<script>
+  document.querySelectorAll('#simGrid .job-card').forEach(card => {
+    card.addEventListener('click', () => card.classList.toggle('open'));
+  });
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('#simGrid .job-card').forEach(card => {
+        card.classList.toggle('hide', f !== 'tumu' && card.dataset.cat !== f);
+      });
+    });
+  });
+</script>
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+</script>
+</body>
+</html>

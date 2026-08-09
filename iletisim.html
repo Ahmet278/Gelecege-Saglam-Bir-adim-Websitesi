@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İletişim | DİGEM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <span class="mark">DG</span>
+      <span>
+        <span class="name">DİGEM</span>
+        <span class="tag">GELECEĞE SAĞLAM BİR ADIM</span>
+      </span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="meslekler.html">Meslekler</a>
+      <a href="egitimler.html">Eğitimler</a>
+      <a href="simulasyonlar.html">Simülasyonlar</a>
+      <a href="projeler.html">Projeler</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="profil.html">Profilim</a>
+      <a href="iletisim.html" class="active">İletişim</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="anket.html" class="btn btn-grad">Kariyer Testi</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Ana Sayfa</a><span>/</span><span>İletişim</span></div>
+    <h1>Soru, öneri ya da iş birliği için buradayız</h1>
+    <p>Aşağıdaki formu doldur, en kısa sürede sana dönüş yapalım.</p>
+  </div>
+</section>
+
+<section class="section-pad bg-light">
+  <div class="wrap">
+    <div class="contact-info-row reveal">
+      <div class="info-card">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+        <h4>E-posta</h4>
+        <p>merhaba@digem.org</p>
+      </div>
+      <div class="info-card">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><path d="M17 21v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2"/><circle cx="10" cy="7" r="4"/></svg></div>
+        <h4>İş Birliği</h4>
+        <p>Okullar, STK'lar ve kurumlarla iş birliği için bize yazın.</p>
+      </div>
+      <div class="info-card">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg></div>
+        <h4>Destek</h4>
+        <p>Hafta içi 09:00–18:00 arası yanıt veriyoruz.</p>
+      </div>
+    </div>
+
+    <div class="form-shell reveal">
+      <div id="contactForm">
+        <div class="form-row">
+          <div class="field"><label for="adSoyad">Ad Soyad</label><input type="text" id="adSoyad" required placeholder="Adını ve soyadını yaz"></div>
+          <div class="field"><label for="eposta">E-posta</label><input type="email" id="eposta" required placeholder="ornek@eposta.com"></div>
+        </div>
+        <div class="field">
+          <label for="konu">Konu</label>
+          <select id="konu">
+            <option>Soru &amp; Öneri</option>
+            <option>İş Birliği</option>
+            <option>Teknik Destek</option>
+            <option>Diğer</option>
+          </select>
+        </div>
+        <div class="field"><label for="mesaj">Mesaj</label><textarea id="mesaj" required placeholder="Mesajını buraya yaz..."></textarea></div>
+        <button class="btn btn-grad" id="sendBtn" style="width:100%; justify-content:center;">Mesajı Gönder</button>
+      </div>
+      <div class="form-success" id="formSuccess">
+        <div class="ic-ok"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <h3>Mesajın alındı!</h3>
+        <p style="color:#64748B; font-size:14.5px;">En kısa sürede sana dönüş yapacağız.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer id="iletisim-alt">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark">DG</span>
+          <span><span class="name" style="color:#fff;">DİGEM</span><span class="tag">GELECEĞE SAĞLAM BİR ADIM</span></span>
+        </div>
+        <p>Gençlerin geleceğin mesleklerini keşfettiği, deneyimlediği ve kendi kariyer yolculuğunu kurduğu dijital gençlik merkezi.</p>
+      </div>
+      <div>
+        <h5>KEŞFET</h5>
+        <ul>
+          <li><a href="meslekler.html">Meslekler</a></li>
+          <li><a href="egitimler.html">Eğitimler</a></li>
+          <li><a href="simulasyonlar.html">Simülasyonlar</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>TOPLULUK</h5>
+        <ul>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="anket.html">Kariyer Testi</a></li>
+          <li><a href="index.html#firsatlar">Fırsatlar</a></li>
+          <li><a href="profil.html">Rozetlerim</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>İLETİŞİM</h5>
+        <ul>
+          <li><a href="mailto:merhaba@digem.org">merhaba@digem.org</a></li>
+          <li><a href="iletisim.html">Soru &amp; Öneri</a></li>
+          <li><a href="iletisim.html">İş Birliği</a></li>
+          <li><a href="iletisim.html">Destek</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 DİGEM — Dijital Gençlik Merkezi. Tüm hakları saklıdır.</span>
+      <span>Geleceğe Sağlam Bir Adım</span>
+    </div>
+  </div>
+</footer>
+<script>
+  document.getElementById('sendBtn').addEventListener('click', () => {
+    const ad = document.getElementById('adSoyad').value.trim();
+    const eposta = document.getElementById('eposta').value.trim();
+    const mesaj = document.getElementById('mesaj').value.trim();
+    if (!ad || !eposta || !mesaj) {
+      alert('Lütfen ad soyad, e-posta ve mesaj alanlarını doldur.');
+      return;
+    }
+    document.getElementById('contactForm').style.display = 'none';
+    document.getElementById('formSuccess').classList.add('show');
+  });
+</script>
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+</script>
+</body>
+</html>

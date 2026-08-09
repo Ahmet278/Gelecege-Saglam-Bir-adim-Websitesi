@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profilim | DİGEM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <span class="mark">DG</span>
+      <span>
+        <span class="name">DİGEM</span>
+        <span class="tag">GELECEĞE SAĞLAM BİR ADIM</span>
+      </span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="meslekler.html">Meslekler</a>
+      <a href="egitimler.html">Eğitimler</a>
+      <a href="simulasyonlar.html">Simülasyonlar</a>
+      <a href="projeler.html">Projeler</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="profil.html" class="active">Profilim</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="anket.html" class="btn btn-grad">Kariyer Testi</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Ana Sayfa</a><span>/</span><span>Profilim</span></div>
+    <div class="profile-head">
+      <div class="avatar-lg">AA</div>
+      <div>
+        <h1 style="font-size:26px; margin-bottom:6px;">Ahmet ALTAN</h1>
+        <p style="margin:0;">Kariyer Yolculuğu · %64 tamamlandı · İlgi alanı: Veri &amp; Yapay Zekâ</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad bg-light">
+  <div class="wrap">
+
+    <div class="dash-grid reveal">
+      <div class="stat-card"><b>4</b><span>Tamamlanan eğitim</span></div>
+      <div class="stat-card"><b>6</b><span>Tamamlanan simülasyon</span></div>
+      <div class="stat-card"><b>3</b><span>Tamamlanan proje</span></div>
+      <div class="stat-card"><b>5</b><span>Kazanılan rozet</span></div>
+    </div>
+
+    <div class="reveal">
+      <div class="tabs-bar">
+        <button class="tab-btn active" data-tab="yolculuk">Kariyer Yolculuğum</button>
+        <button class="tab-btn" data-tab="beceri">Beceri Haritam</button>
+        <button class="tab-btn" data-tab="rozetler">Rozetlerim</button>
+      </div>
+
+      <div class="tab-panel active" id="tab-yolculuk">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body"><b>"Veriyle Konuş: SQL ve Görselleştirme" eğitimi tamamlandı</b><span>3 gün önce · Eğitim</span></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body"><b>"Veri Temizleme ve Analiz" simülasyonu tamamlandı</b><span>1 hafta önce · Simülasyon</span></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body"><b>"Hava Durumu Tahmin Uygulaması" projesi yayınlandı</b><span>2 hafta önce · Proje</span></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body"><b>"Kod Kâşifi" rozeti kazanıldı</b><span>3 hafta önce · Başarı</span></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body"><b>Kariyer testi tamamlandı — Veri &amp; Yapay Zekâ önerisi alındı</b><span>1 ay önce · Anket</span></div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="tab-beceri">
+        <div class="skill-item"><div class="lbl-row"><b>Python</b><span>Orta</span></div><div class="skill-bar"><i style="width:58%"></i></div></div>
+        <div class="skill-item"><div class="lbl-row"><b>Veri Analizi</b><span>Orta-İleri</span></div><div class="skill-bar"><i style="width:70%"></i></div></div>
+        <div class="skill-item"><div class="lbl-row"><b>SQL</b><span>Başlangıç-Orta</span></div><div class="skill-bar"><i style="width:42%"></i></div></div>
+        <div class="skill-item"><div class="lbl-row"><b>Görselleştirme</b><span>Orta</span></div><div class="skill-bar"><i style="width:55%"></i></div></div>
+        <div class="skill-item"><div class="lbl-row"><b>Takım Çalışması</b><span>İleri</span></div><div class="skill-bar"><i style="width:82%"></i></div></div>
+      </div>
+
+      <div class="tab-panel" id="tab-rozetler">
+        <div class="badge-grid">
+          <div class="badge-item"><div class="ring"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg></div><h4>İlk Adım</h4><span>Kazanıldı</span></div>
+          <div class="badge-item"><div class="ring"><svg viewBox="0 0 24 24"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg></div><h4>Kod Kâşifi</h4><span>Kazanıldı</span></div>
+          <div class="badge-item"><div class="ring"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/></svg></div><h4>Simülasyon Ustası</h4><span>Kazanıldı</span></div>
+          <div class="badge-item"><div class="ring"><svg viewBox="0 0 24 24"><path d="M4 19h4V10H4v9zM10 19h4V5h-4v14zM16 19h4v-6h-4v6z"/></svg></div><h4>Proje Üretici</h4><span>Kazanıldı</span></div>
+          <div class="badge-item"><div class="ring" style="opacity:.4;"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></svg></div><h4>Kariyer Yolcusu</h4><span>Devam ediyor</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section-pad bg-white">
+  <div class="wrap">
+    <div class="mini-cta reveal">
+      <div><h3>Yolculuğuna devam et</h3><p>Yeni bir eğitim, simülasyon veya proje ile ilerlemeye kaldığın yerden başla.</p></div>
+      <a href="egitimler.html" class="btn btn-grad">Eğitimlere Göz At</a>
+    </div>
+  </div>
+</section>
+<footer id="iletisim-alt">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark">DG</span>
+          <span><span class="name" style="color:#fff;">DİGEM</span><span class="tag">GELECEĞE SAĞLAM BİR ADIM</span></span>
+        </div>
+        <p>Gençlerin geleceğin mesleklerini keşfettiği, deneyimlediği ve kendi kariyer yolculuğunu kurduğu dijital gençlik merkezi.</p>
+      </div>
+      <div>
+        <h5>KEŞFET</h5>
+        <ul>
+          <li><a href="meslekler.html">Meslekler</a></li>
+          <li><a href="egitimler.html">Eğitimler</a></li>
+          <li><a href="simulasyonlar.html">Simülasyonlar</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>TOPLULUK</h5>
+        <ul>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="anket.html">Kariyer Testi</a></li>
+          <li><a href="index.html#firsatlar">Fırsatlar</a></li>
+          <li><a href="profil.html">Rozetlerim</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>İLETİŞİM</h5>
+        <ul>
+          <li><a href="mailto:merhaba@digem.org">merhaba@digem.org</a></li>
+          <li><a href="iletisim.html">Soru &amp; Öneri</a></li>
+          <li><a href="iletisim.html">İş Birliği</a></li>
+          <li><a href="iletisim.html">Destek</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 DİGEM — Dijital Gençlik Merkezi. Tüm hakları saklıdır.</span>
+      <span>Geleceğe Sağlam Bir Adım</span>
+    </div>
+  </div>
+</footer>
+<script>
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    });
+  });
+</script>
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+</script>
+</body>
+</html>

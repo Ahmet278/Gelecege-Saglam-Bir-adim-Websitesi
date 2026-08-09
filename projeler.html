@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeler | DİGEM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <span class="mark">DG</span>
+      <span>
+        <span class="name">DİGEM</span>
+        <span class="tag">GELECEĞE SAĞLAM BİR ADIM</span>
+      </span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="meslekler.html">Meslekler</a>
+      <a href="egitimler.html">Eğitimler</a>
+      <a href="simulasyonlar.html">Simülasyonlar</a>
+      <a href="projeler.html" class="active">Projeler</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="profil.html">Profilim</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="anket.html" class="btn btn-grad">Kariyer Testi</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Ana Sayfa</a><span>/</span><span>Projeler</span></div>
+    <h1>Uygulamalı, gerçek hayata yakın projeler</h1>
+    <p>Sadece izleme değil, üretme. Her proje bir kariyer alanının gerçek çıktısını simüle eder ve tamamlandığında profilinde sergilenir.</p>
+  </div>
+</section>
+
+<section class="section-pad bg-light">
+  <div class="wrap">
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="tumu">Tümü</button>
+      <button class="filter-btn" data-filter="veri-bilimi">Veri Bilimi</button>
+      <button class="filter-btn" data-filter="yazilim">Yazılım</button>
+      <button class="filter-btn" data-filter="yapay-zeka">Yapay Zekâ</button>
+      <button class="filter-btn" data-filter="tasarim">Tasarım</button>
+    </div>
+
+    <div class="grid-3 reveal" id="projGrid">
+      <div class="proj-card" data-cat="veri-bilimi">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#2563EB,#14B8A6);"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4"><path d="M4 19h4V10H4v9zM10 19h4V5h-4v14zM16 19h4v-6h-4v6z"/></svg></div>
+        <div class="proj-body"><span class="cat">VERİ BİLİMİ</span><h3>Hava Durumu Tahmin Uygulaması</h3><p>Geçmiş verilerle basit bir tahmin modeli kurup sonuçları görselleştir.</p></div>
+      </div>
+      <div class="proj-card" data-cat="yazilim">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#0F172A,#2563EB);"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg></div>
+        <div class="proj-body"><span class="cat">YAZILIM</span><h3>Kişisel Portföy Web Sitesi</h3><p>Kendi projelerini sergileyeceğin duyarlı bir web sitesi geliştir.</p></div>
+      </div>
+      <div class="proj-card" data-cat="yapay-zeka">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#14B8A6,#0F172A);"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1"/></svg></div>
+        <div class="proj-body"><span class="cat">YAPAY ZEKÂ</span><h3>Basit Bir Sohbet Botu Tasarımı</h3><p>Kural tabanlı bir sohbet botunun akışını kurgula ve test et.</p></div>
+      </div>
+      <div class="proj-card" data-cat="tasarim">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#2563EB,#0F172A);"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4"><path d="M3 12c3-5 15-5 18 0-3 5-15 5-18 0z"/><circle cx="12" cy="12" r="2.5"/></svg></div>
+        <div class="proj-body"><span class="cat">TASARIM</span><h3>Mobil Uygulama Arayüz Kiti</h3><p>Tutarlı bir tasarım dili ile 5 ekranlık bir arayüz kiti oluştur.</p></div>
+      </div>
+      <div class="proj-card" data-cat="yazilim">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#14B8A6,#2563EB);"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4"><rect x="3" y="9" width="18" height="8" rx="4"/></svg></div>
+        <div class="proj-body"><span class="cat">YAZILIM</span><h3>Basit Bir Görev Takip Uygulaması</h3><p>Ekleme, tamamlama ve silme işlevleri olan küçük bir üretkenlik aracı yap.</p></div>
+      </div>
+      <div class="proj-card" data-cat="veri-bilimi">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#0F172A,#14B8A6);"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg></div>
+        <div class="proj-body"><span class="cat">GÜVENLİK</span><h3>Parola Güvenliği Denetim Raporu</h3><p>Örnek bir sistem için parola politikası analiz edip iyileştirme önerisi sun.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad bg-white">
+  <div class="wrap">
+    <div class="mini-cta reveal">
+      <div><h3>Bir proje tamamladın mı?</h3><p>Çalışmanı Galeri'de paylaş, diğer gençlere ilham ver.</p></div>
+      <a href="galeri.html" class="btn btn-grad">Galeriye Git</a>
+    </div>
+  </div>
+</section>
+<footer id="iletisim-alt">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark">DG</span>
+          <span><span class="name" style="color:#fff;">DİGEM</span><span class="tag">GELECEĞE SAĞLAM BİR ADIM</span></span>
+        </div>
+        <p>Gençlerin geleceğin mesleklerini keşfettiği, deneyimlediği ve kendi kariyer yolculuğunu kurduğu dijital gençlik merkezi.</p>
+      </div>
+      <div>
+        <h5>KEŞFET</h5>
+        <ul>
+          <li><a href="meslekler.html">Meslekler</a></li>
+          <li><a href="egitimler.html">Eğitimler</a></li>
+          <li><a href="simulasyonlar.html">Simülasyonlar</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>TOPLULUK</h5>
+        <ul>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="anket.html">Kariyer Testi</a></li>
+          <li><a href="index.html#firsatlar">Fırsatlar</a></li>
+          <li><a href="profil.html">Rozetlerim</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>İLETİŞİM</h5>
+        <ul>
+          <li><a href="mailto:merhaba@digem.org">merhaba@digem.org</a></li>
+          <li><a href="iletisim.html">Soru &amp; Öneri</a></li>
+          <li><a href="iletisim.html">İş Birliği</a></li>
+          <li><a href="iletisim.html">Destek</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 DİGEM — Dijital Gençlik Merkezi. Tüm hakları saklıdır.</span>
+      <span>Geleceğe Sağlam Bir Adım</span>
+    </div>
+  </div>
+</footer>
+<script>
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('#projGrid .proj-card').forEach(card => {
+        card.classList.toggle('hide', f !== 'tumu' && card.dataset.cat !== f);
+      });
+    });
+  });
+</script>
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+</script>
+</body>
+</html>
