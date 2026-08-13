@@ -17,6 +17,8 @@
 
 
 9- README - Sitenin kullanımı oldukça basit ve anlaşılır olarak şu şekilde tasarlanmıştır:
+
+
 -En üstte navigasyon bar bulunmaktadır. (mobilde 3 çizgi halinde görünür ve
 tıklanması gerekir) Bu navigasyon barı aracılığı ile ilgili sayfaya gidilir ve ilgili içerik
 görüntülenebilir.
