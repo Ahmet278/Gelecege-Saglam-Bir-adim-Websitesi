@@ -16,7 +16,7 @@
 #5-Projenin kullanılabilirliğine dair kısa bir açıklama: Bu proje eğitim verecek kuruluşlar tarafından aktif hale getirildiği taktirde hem gençlerin vizyonu ve kariyerlerini geliştirebilecek hem de gençlerin kendi gelişimlerini takip ederek eğitimlerdeki motivasyonlarını da rozet kazanma yöntemiyle diri tutacaklardır. Daha sağlam bir öğrenim süreci ve daha sağlam bir cv oluşturacaklardır.
 
 
-9- README - Sitenin kullanımı oldukça basit ve anlaşılır olarak şu şekilde tasarlanmıştır:
+9- README - Bu bir demo sitedir, sitenin kullanımı oldukça basit ve anlaşılır olarak şu şekilde tasarlanmıştır:
 
 
 -En üstte navigasyon bar bulunmaktadır. (mobilde 3 çizgi halinde görünür ve
